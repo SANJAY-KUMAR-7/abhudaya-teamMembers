@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="stylesheet.css">
+   <script src="https://cdn.tailwindcss.com"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+      <div class="main">
+      <div class="student_founding_team">
+           <!--Student Founding Members-->
+        <h1 class="text-4xl md:text-6xl font-bold text-center">STUDENT FOUNDING TEAM</h1>
+        <hr class="hr-1">
+        <div class="grid-container grid grid-cols-1 md:grid-cols-3 ">
+
+            <div class="research_team relative m-5">
+                <h2 class="hidden md:block text-center font-bold text-2xl py-3">RESEARCH TEAM</h2>
+                <hr class="hidden md:block horizontal-rule">
+                <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+                <button id="more-info-1" onclick="founding_research_team_1()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                <div id="more-info-container-1">
+                    <h3 class="py-2 text-lg">Kshama Sharma</h3>
+                    <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+                <button id="more-info-close-1" onclick="founding_research_team_close_1()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                </div>
+            </div>
+             <!--**************************************-->
+             <div class="research_team relative m-5">
+                <h2 class="hidden md:block text-center font-bold text-2xl py-3">CONNECTION TEAM</h2>
+                <hr class="hidden md:block horizontal-rule">
+                <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+                <button id="more-info-2" onclick="connection_team_1()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                <div id="more-info-container-2">
+                    <h3 class="py-2 text-lg">Varsha Kesnani</h3>
+                    <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+                <button id="more-info-close-2" onclick="connection_team_close_1()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                </div>
+            </div>
+            <!--**************************************-->
+            <div class="research_team relative m-5">
+                <h2 class="hidden md:block text-center font-bold text-2xl py-3 ">COMMUNICATION TEAM</h2>
+                <hr class="hidden md:block horizontal-rule">
+                <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+                <button id="more-info-3" onclick="communication_team_1()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                <div id="more-info-container-3">
+                    <h3 class="py-2 text-lg">Aman Mathur</h3>
+                    <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+                <button id="more-info-close-3" onclick="communication_team_close_1()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                </div>
+            </div>
+            <!--**************************************-->
+            <div class="research_team relative m-5">
+                <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+                <button id="more-info-4" onclick="founding_research_team_2()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                <div id="more-info-container-4">
+                    <h3 class="py-2 text-lg">Yogya Chhatwani</h3>
+                    <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+                <button id="more-info-close-4" onclick="founding_research_team_close_2()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                </div>
+            </div>
+             <!--**************************************-->
+             <div class="research_team relative m-5">
+                <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+                <button id="more-info-5" onclick="connection_team_2()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                <div id="more-info-container-5">
+                    <h3 class="py-2 text-lg">Sachin Agarwal</h3>
+                    <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+                <button id="more-info-close-5" onclick="connection_team_close_2()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                </div>
+            </div>
+            <!--**************************************-->
+            <div class="research_team relative m-5">
+                <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+                <button id="more-info-6" onclick="communication_team_2()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                <div id="more-info-container-6">
+                    <h3 class="py-2 text-lg">Ashish Srivastava</h3>
+                    <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+                <button id="more-info-close-6" onclick="communication_team_close_2()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                </div>
+            </div>
+        </div>
+
+      </div>
+      <!--2022 Core Team-->
+      <div class="social_media_team">
+        <!--Social Media Members-->
+     <h1 class="text-4xl md:text-6xl font-bold text-center">2022 CORE TEAM</h1>
+     <hr class="hr-1">
+     <h1 class="text-4xl  md:text-5xl font-bold text-center mb-16">Social Media Team</h1>
+     <div class="grid-container grid grid-cols-1 md:grid-cols-3 ">
+
+         <div class="research_team relative m-5">
+             <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+             <button id="core_more-info-1" onclick="core_research_team_1()">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                     <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                   </svg>
+             </button>
+             <div id="core_more-info-container-1">
+                 <h3 class="py-2 text-lg">Naman Maheshwari</h3>
+                 <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+             <button id="core_more-info-close-1" onclick="core_research_team_close_1()">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                     <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                   </svg>
+             </button>
+             </div>
+         </div>
+          <!--**************************************-->
+          <div class="research_team relative m-5">
+             <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+             <button id="core_more-info-2" onclick="core_connection_team_1()">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                     <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                   </svg>
+             </button>
+             <div id="core_more-info-container-2">
+                 <h3 class="py-2 text-lg">Sapan Mittal</h3>
+                 <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+             <button id="core_more-info-close-2" onclick="core_connection_team_close_1()">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                     <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                   </svg>
+             </button>
+             </div>
+         </div>
+         <!--**************************************-->
+         <div class="research_team relative m-5">
+             <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+             <button id="core_more-info-3" onclick="core_communication_team_1()">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                     <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                   </svg>
+             </button>
+             <div id="core_more-info-container-3">
+                 <h3 class="py-2 text-lg">Apurva Gupta</h3>
+                 <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+             <button id="core_more-info-close-3" onclick="core_communication_team_close_1()">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                     <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                   </svg>
+             </button>
+             </div>
+         </div>
+         <!--**************************************-->
+         <div class="research_team relative m-5">
+             <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+             <button id="core_more-info-4" onclick="core_research_team_2()">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                     <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                   </svg>
+             </button>
+             <div id="core_more-info-container-4">
+                 <h3 class="py-2 text-lg">Ishita Verma</h3>
+                 <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+             <button id="core_more-info-close-4" onclick="core_research_team_close_2()">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                     <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                   </svg>
+             </button>
+             </div>
+         </div>
+          <!--**************************************-->
+          <div class="research_team relative m-5">
+             <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+             <button id="core_more-info-5" onclick="core_connection_team_2()">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                     <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                   </svg>
+             </button>
+             <div id="core_more-info-container-5">
+                 <h3 class="py-2 text-lg">Uma Choudhary</h3>
+                 <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+             <button id="core_more-info-close-5" onclick="core_connection_team_close_2()">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                     <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                   </svg>
+             </button>
+             </div>
+         </div>
+         <!--**************************************-->
+         <div class="research_team relative m-5">
+             <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+             <button id="core_more-info-6" onclick="core_communication_team_2()">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                     <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                   </svg>
+             </button>
+             <div id="core_more-info-container-6">
+                 <h3 class="py-2 text-lg">Farheena Mansuri</h3>
+                 <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+             <button id="core_more-info-close-6" onclick="core_communication_team_close_2()">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                     <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                   </svg>
+             </button>
+             </div>
+         </div>
+               <!--**************************************-->
+               <div class="research_team relative m-5">
+                <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+                <button id="core_more-info-7" onclick="core_communication_team_3()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                <div id="core_more-info-container-7">
+                    <h3 class="py-2 text-lg">Parilakshya Puri</h3>
+                    <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+                <button id="core_more-info-close-7" onclick="core_communication_team_close_3()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                </div>
+            </div>
+                  <!--**************************************-->
+                  <div class="research_team relative m-5">
+                    <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+                    <button id="core_more-info-8" onclick="core_communication_team_4()">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                          </svg>
+                    </button>
+                    <div id="core_more-info-container-8">
+                        <h3 class="py-2 text-lg">Aditi Gupta</h3>
+                        <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+                    <button id="core_more-info-close-8" onclick="core_communication_team_close_4()">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                          </svg>
+                    </button>
+                    </div>
+                </div>
+     </div>
+                      <!--**************************************-->
+    
+<div class="communication_connection_team">
+        <!--Communication and connection Members-->
+     <h1 class="text-4xl  md:text-5xl font-bold text-center mb-16 mt-8">Communication & Connection Team</h1>
+     <div class="grid-container grid grid-cols-1 md:grid-cols-3 ">
+
+         <div class="communication_connection_team relative m-5">
+             <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+             <button id="communication_connection_more-info-1" onclick="communication_connection_team_1()">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                     <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                   </svg>
+             </button>
+             <div id="communication_connection_more-info-container-1">
+                 <h3 class="py-2 text-lg">Parilakshya Puri</h3>
+                 <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+             <button id="communication_connection_more-info-close-1" onclick="communication_connection_team_close_1()">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                     <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                   </svg>
+             </button>
+             </div>
+         </div>
+          <!--***************2nd ***********************-->   
+          <div class="communication_connection_team relative m-5">
+            <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+            <button id="communication_connection_more-info-2" onclick="communication_connection_team_2()">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+            </button>
+            <div id="communication_connection_more-info-container-2">
+                <h3 class="py-2 text-lg">Sanjana Sanjay</h3>
+                <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+            <button id="communication_connection_more-info-close-2" onclick="communication_connection_team_close_2()">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                  </svg>
+            </button>
+            </div>
+        </div>
+         <!--*******************3rd*******************-->  
+         <div class="communication_connection_team relative m-5">
+            <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+            <button id="communication_connection_more-info-3" onclick="communication_connection_team_3()">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+            </button>
+            <div id="communication_connection_more-info-container-3">
+                <h3 class="py-2 text-lg">Khushi Agarwal</h3>
+                <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+            <button id="communication_connection_more-info-close-3" onclick="communication_connection_team_close_3()">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                  </svg>
+            </button>
+            </div>
+        </div>
+         <!--*******************4th*******************-->  
+         <div class="communication_connection_team relative m-5">
+            <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+            <button id="communication_connection_more-info-4" onclick="communication_connection_team_4()">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+            </button>
+            <div id="communication_connection_more-info-container-4">
+                <h3 class="py-2 text-lg">Khushi Chauhan</h3>
+                <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+            <button id="communication_connection_more-info-close-4" onclick="communication_connection_team_close_4()">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                  </svg>
+            </button>
+            </div>
+        </div>
+         <!--*******************5th*******************-->  
+         <div class="communication_connection_team relative m-5">
+            <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+            <button id="communication_connection_more-info-5" onclick="communication_connection_team_5()">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+            </button>
+            <div id="communication_connection_more-info-container-5">
+                <h3 class="py-2 text-lg">Farheena Mansuri</h3>
+                <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+            <button id="communication_connection_more-info-close-5" onclick="communication_connection_team_close_5()">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                  </svg>
+            </button>
+            </div>
+        </div>
+         <!--*****************6th*********************-->  
+         <div class="communication_connection_team relative m-5">
+            <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+            <button id="communication_connection_more-info-6" onclick="communication_connection_team_6()">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+            </button>
+            <div id="communication_connection_more-info-container-6">
+                <h3 class="py-2 text-lg">Rahul Jain</h3>
+                <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+            <button id="communication_connection_more-info-close-6" onclick="communication_connection_team_close_6()">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                  </svg>
+            </button>
+            </div>
+        </div>
+    </div>
+         <!--******************      Website team         ********************-->  
+         <div class="website_team">
+            <!--Website Team-->
+         <h1 class="text-4xl  md:text-5xl font-bold text-center mb-16 mt-8">Website Team</h1>
+         <div class="grid-container grid grid-cols-1 md:grid-cols-3 ">
+    
+             <div class="website_team_team relative m-5">
+                 <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+                 <button id="website_team_more-info-1" onclick="website_team_1()">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                         <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                       </svg>
+                 </button>
+                 <div id="website_team_more-info-container-1">
+                     <h3 class="py-2 text-lg">Varun Choudhary</h3>
+                     <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+                 <button id="website_team_more-info-close-1" onclick="website_team_close_1()">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                         <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                       </svg>
+                 </button>
+                 </div>
+             </div>
+              <!--***************2nd ***********************-->  
+              <div class="website_team_team relative m-5">
+                <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+                <button id="website_team_more-info-2" onclick="website_team_2()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                <div id="website_team_more-info-container-2">
+                    <h3 class="py-2 text-lg">Sanjay Kumar</h3>
+                    <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+                <button id="website_team_more-info-close-2" onclick="website_team_close_2()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                </div>
+            </div>
+             <!--***************3nd ***********************-->  
+             <div class="website_team_team relative m-5">
+                <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+                <button id="website_team_more-info-3" onclick="website_team_3()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                <div id="website_team_more-info-container-3">
+                    <h3 class="py-2 text-lg">Ashish Bishnoi</h3>
+                    <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+                <button id="website_team_more-info-close-3" onclick="website_team_close_3()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                </div>
+            </div>
+             <!--***************4th ***********************-->  
+             <div class="website_team_team relative m-5">
+                <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+                <button id="website_team_more-info-4" onclick="website_team_4()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                <div id="website_team_more-info-container-4">
+                    <h3 class="py-2 text-lg">Kanak Jain</h3>
+                    <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+                <button id="website_team_more-info-close-4" onclick="website_team_close_4()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                </div>
+            </div>
+             <!--***************5thnd ***********************-->  
+             <div class="website_team_team relative m-5">
+                <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+                <button id="website_team_more-info-5" onclick="website_team_5()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                <div id="website_team_more-info-container-5">
+                    <h3 class="py-2 text-lg">Mudit Pandey</h3>
+                    <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+                <button id="website_team_more-info-close-5" onclick="website_team_close_5()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                </div>
+            </div>
+             <!--***************6th ***********************-->  
+             <div class="website_team_team relative m-5">
+                <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+                <button id="website_team_more-info-6" onclick="website_team_6()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                <div id="website_team_more-info-container-6">
+                    <h3 class="py-2 text-lg">Aditi Gupta</h3>
+                    <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+                <button id="website_team_more-info-close-6" onclick="website_team_close_6()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                </div>
+            </div>
+         </div>
+
+<!--******************      Research team         ********************-->  
+         <div class="website_team">
+            <!--Research Team-->
+         <h1 class="text-4xl  md:text-5xl font-bold text-center mb-16 mt-8">Research Team</h1>
+         <div class="grid-container grid grid-cols-1 md:grid-cols-3 ">
+    
+             <div class="research_team relative m-5">
+                 <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+                 <button id="research_team_more-info-1" onclick="research_team_1()">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                         <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                       </svg>
+                 </button>
+                 <div id="research_team_more-info-container-1">
+                     <h3 class="py-2 text-lg">Shruti Sharma</h3>
+                     <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+                 <button id="research_team_more-info-close-1" onclick="research_team_close_1()">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                         <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                       </svg>
+                 </button>
+                 </div>
+             </div>
+              <!--***************2nd ***********************-->  
+              <div class="research_team relative m-5">
+                <img class="image h-22 max-w-18" src="Media/kanan.png">
+                <button id="research_team_more-info-2" onclick="research_team_2()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                <div id="research_team_more-info-container-2">
+                    <h3 class="py-2 text-lg">Kanan Agarwal</h3>
+                    <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+                <button id="research_team_more-info-close-2" onclick="research_team_close_2()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                </div>
+            </div>
+             <!--***************3rd ***********************-->  
+             <div class="research_team relative m-5">
+                <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+                <button id="research_team_more-info-3" onclick="research_team_3()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                <div id="research_team_more-info-container-3">
+                    <h3 class="py-2 text-lg">Mahima Bajaj</h3>
+                    <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+                <button id="research_team_more-info-close-3" onclick="research_team_close_3()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                </div>
+            </div>
+             <!--***************4th ***********************--> 
+             <div class="research_team relative m-5">
+                <img class="image h-22 max-w-18 " src="Media/website team-1.png">
+                <button id="research_team_more-info-4" onclick="research_team_4()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                <div id="research_team_more-info-container-4">
+                    <h3 class="py-2 text-lg">Priyansh Vashishth</h3>
+                    <p>A student of Btech CSE currently in 4th Sem is a bright mind who is confident and is always there for his colleages.  </p>
+                <button id="research_team_more-info-close-4" onclick="research_team_close_4()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                      </svg>
+                </button>
+                </div>
+            </div>
+         </div>
+<!--*****************************************footer *********************************************-->   
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+
+</html>
